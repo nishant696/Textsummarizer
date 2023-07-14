@@ -3,7 +3,7 @@ from pathlib import Path
 import logging
 logging.basicConfig(level=logging.INFO, format='[%(ascitime)s]: %(message)s')
 
-project_name = "Text-summarizer"\
+project_name = "Text-summarizer"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
@@ -25,6 +25,7 @@ list_of_files = [
     "requirements.txt",
     "setup.py",
     "resarch/trials.ipynb"
+    "test.py"
 ]
 
 for filepath in list_of_files:
